@@ -4,33 +4,31 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.10), qtbase5-dev, dbus-x11
+ extra-cmake-modules (>= 0.0.11), qtbase5-dev, dbus-x11
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdbusaddons
 
 Package: libkf5dbusaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5dbusaddons4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5dbusaddons5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for dbusaddons
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
 
-Package: libkf5dbusaddons4
+Package: libkf5dbusaddons5
 Architecture: any
-Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: class library for qtdbus
  KDBusAddons provides convenience classes on top of QtDBus, 
  as well as an API to create KDED modules.
 
-Package: libkf5dbusaddons4-dbg
+Package: libkf5dbusaddons5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: same
-Depends: libkf5dbusaddons4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5dbusaddons5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kdbusaddons
  KDBusAddons provides convenience classes on top of QtDBus, 
  as well as an API to create KDED modules.
