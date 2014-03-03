@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5DBusAddons.so.4 libkf5dbusaddons4 #MINVER#
+libKF5DBusAddons.so.5 libkf5dbusaddons5 #MINVER#
  _ZN10KDEDModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KDEDModule11qt_metacastEPKc@Base 4.96.0
  _ZN10KDEDModule13moduleDeletedEPS_@Base 4.96.0
