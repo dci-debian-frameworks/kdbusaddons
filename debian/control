@@ -18,7 +18,6 @@ Description: development files for dbusaddons
 
 Package: libkf5dbusaddons5
 Architecture: any
-Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: class library for qtdbus
@@ -29,7 +28,6 @@ Package: libkf5dbusaddons5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: same
 Depends: libkf5dbusaddons5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kdbusaddons
  KDBusAddons provides convenience classes on top of QtDBus, 

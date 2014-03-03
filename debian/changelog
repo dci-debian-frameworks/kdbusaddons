@@ -1,7 +1,12 @@
 kdbusaddons (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream alpha release
   * Rename library package for soname 5
+
+  [ Scarlett Clark ]
+  * Fix changed lib names in deb/*.install
+  * Fixed rules.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:16:25 +0000
 
@@ -12,7 +17,7 @@ kdbusaddons (4.96.0-0ubuntu1) trusty; urgency=medium
 
   [ Scarlett Clark ]
   * Fix changed lib names in deb/*.install
-  * Fixed soname error renamed package to 4 
+  * Fixed soname error renamed package to 4
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:30:27 +0100
 
