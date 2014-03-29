@@ -1,4 +1,4 @@
-kdbusaddons (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+kdbusaddons (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream alpha release
@@ -8,7 +8,10 @@ kdbusaddons (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix changed lib names in deb/*.install
   * Fixed rules.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:16:25 +0000
+  [ Jonathan Riddell ]
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:25:11 +0000
 
 kdbusaddons (4.96.0-0ubuntu1) trusty; urgency=medium
 
