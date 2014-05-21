@@ -3,9 +3,15 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, dbus-x11,
- qttools5-dev, qttools5-dev-tools, qt5-default
+Build-Depends: cmake,
+               dbus-x11,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               pkg-kde-tools,
+               qt5-default,
+               qtbase5-dev,
+               qttools5-dev,
+               qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdbusaddons
 
@@ -20,18 +26,19 @@ Description: development files for dbusaddons
 Package: libkf5dbusaddons5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends},
- libkf5dbusaddons5-data (= ${binary:Version})
+Depends: libkf5dbusaddons5-data (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: class library for qtdbus
- KDBusAddons provides convenience classes on top of QtDBus, 
+ KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
 
 Package: libkf5dbusaddons5-data
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: class library for qtdbus
- KDBusAddons provides convenience classes on top of QtDBus, 
+ KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
  .
  This package contains the translations.
@@ -42,5 +49,5 @@ Section: debug
 Architecture: any
 Depends: libkf5dbusaddons5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kdbusaddons
- KDBusAddons provides convenience classes on top of QtDBus, 
+ KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
