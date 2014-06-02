@@ -61,11 +61,11 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: autotests/kdbusinterprocesslocktest.cpp
        autotests/kdbusservicetest.cpp
-Copyright: 2011 Kevin Ottens <ervin@kde.org>           
+Copyright: 2011 Kevin Ottens <ervin@kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -82,7 +82,7 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
 Files: debian/*
 Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
