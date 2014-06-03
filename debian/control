@@ -11,7 +11,8 @@ Build-Depends: cmake,
                qt5-default,
                qtbase5-dev,
                qttools5-dev,
-               qttools5-dev-tools
+               qttools5-dev-tools,
+               libqt5x11extras5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdbusaddons
 
@@ -30,6 +31,7 @@ Multi-Arch: same
 Depends: libkf5dbusaddons5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5dbusaddons5-bin (= ${source:Version})
 Description: class library for qtdbus
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
@@ -38,11 +40,22 @@ Package: libkf5dbusaddons5-data
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
 Description: class library for qtdbus
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
  .
  This package contains the translations.
+
+Package: libkf5dbusaddons5-bin
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: class library for qtdbus
+ KDBusAddons provides convenience classes on top of QtDBus,
+ as well as an API to create KDED modules.
+ .
+ This package contains kquitapp5.
 
 Package: libkf5dbusaddons5-dbg
 Priority: extra
