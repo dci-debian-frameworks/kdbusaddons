@@ -11,6 +11,9 @@ kdbusaddons (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Rename libkf5dbusaddons5-bin to libkf5dbusaddons-bin and
+    libkf5dbusaddons5-data to libkf5dbusaddons-data
+    + Breaks+Replaces previous packages
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:36:35 +0100
 

@@ -27,27 +27,31 @@ Description: development files for dbusaddons
 Package: libkf5dbusaddons5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5dbusaddons5-data (= ${source:Version}),
+Depends: libkf5dbusaddons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: libkf5dbusaddons5-bin (= ${source:Version})
+Recommends: libkf5dbusaddons-bin (= ${source:Version})
 Description: class library for qtdbus
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
 
-Package: libkf5dbusaddons5-data
+Package: libkf5dbusaddons-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5dbusaddons5-data
+Replaces: libkf5dbusaddons5-data
 Description: class library for qtdbus
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
  .
  This package contains the translations.
 
-Package: libkf5dbusaddons5-bin
+Package: libkf5dbusaddons-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5dbusaddons5-bin
+Replaces: libkf5dbusaddons5-bin
 Description: class library for qtdbus
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
