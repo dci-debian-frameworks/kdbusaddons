@@ -15,6 +15,8 @@ Build-Depends: cmake,
                libqt5x11extras5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kdbusaddons
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdbusaddons
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kdbusaddons
 
 Package: libkf5dbusaddons-dev
 Section: libdevel
