@@ -7,6 +7,7 @@ kdbusaddons (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update watch file to stable
   * Add Vcs
   * Fix build, overridden command never works on this line. Reverting. 
+  * Fix dh_auto_test to actually run tests. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:32:36 +0200
 
