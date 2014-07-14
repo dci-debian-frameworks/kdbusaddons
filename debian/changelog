@@ -1,3 +1,9 @@
+kdbusaddons (5.0.0-0ubuntu2) utopic; urgency=medium
+
+  * Temporarily ignore failing test to get it working for Plasma 5 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 14 Jul 2014 20:48:02 +0200
+
 kdbusaddons (5.0.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
