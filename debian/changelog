@@ -1,3 +1,9 @@
+kdbusaddons (5.0.0-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Update copyright to match licensing to source 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 15:06:05 -0700
+
 kdbusaddons (5.0.0-0ubuntu2) utopic; urgency=medium
 
   * Temporarily ignore failing test to get it working for Plasma 5 release
