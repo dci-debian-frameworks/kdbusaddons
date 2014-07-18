@@ -1,6 +1,11 @@
 kdbusaddons (5.0.0-0ubuntu3) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Update copyright to match licensing to source 
+
+  [ José Manuel Santamaría Lema ]
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 15:06:05 -0700
 
