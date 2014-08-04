@@ -1,4 +1,4 @@
-kdbusaddons (5.0.0-0ubuntu3) UNRELEASED; urgency=medium
+kdbusaddons (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Update copyright to match licensing to source 
@@ -7,7 +7,10 @@ kdbusaddons (5.0.0-0ubuntu3) UNRELEASED; urgency=medium
   * Update libraries *.install paths so a soname bump doesn't go
     unnoticed.
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 15:06:05 -0700
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:43:32 -0700
 
 kdbusaddons (5.0.0-0ubuntu2) utopic; urgency=medium
 
