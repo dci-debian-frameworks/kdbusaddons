@@ -2,10 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kdbusaddons
 Source: https://projects.kde.org/projects/frameworks/kdbusaddons
 
-Files: src/kdedmodule.h
-       src/kdedmodule.cpp
-       src/kdbusconnectionpool.cpp
-       src/kdbusconnectionpool.h
+Files: *
        debian/*
 Copyright: 2011 Kevin Ottens <ervin@kde.org>,
            2010-2011, 2013 David Faure <faure@kde.org>,
