@@ -1,8 +1,12 @@
-kdbusaddons (5.2.0-0ubuntu2) UNRELEASED; urgency=medium
+kdbusaddons (5.6.0-1~) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Do not build depend on qt5-default, we only need qtbase5-dev
 
- -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 30 Sep 2014 14:17:36 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.6.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 22 Jan 2015 20:29:56 +0100
 
 kdbusaddons (5.2.0-0ubuntu1) utopic; urgency=medium
 
