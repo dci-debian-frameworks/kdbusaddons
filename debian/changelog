@@ -6,6 +6,7 @@ kdbusaddons (5.6.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (5.6.0).
   * Bump build dependencies to build against the experimental versions.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 22 Jan 2015 20:29:56 +0100
 
