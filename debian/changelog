@@ -8,6 +8,7 @@ kdbusaddons (5.6.0-1~) UNRELEASED; urgency=medium
   * Bump build dependencies to build against the experimental versions.
   * Update install files.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 22 Jan 2015 20:29:56 +0100
 
