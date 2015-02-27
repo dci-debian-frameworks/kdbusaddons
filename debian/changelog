@@ -1,9 +1,9 @@
-kdbusaddons (5.7.0-1~) UNRELEASED; urgency=medium
+kdbusaddons (5.7.0-1) experimental; urgency=medium
 
   * New upstream release (5.7.0).
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:40:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 Feb 2015 00:06:30 +0100
 
 kdbusaddons (5.7.0-0ubuntu1) vivid; urgency=medium
 
