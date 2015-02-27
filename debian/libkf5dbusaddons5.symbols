@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0+git20150125.0021+15.04 amd64 i386
 libKF5DBusAddons.so.5 libkf5dbusaddons5 #MINVER#
  _ZN10KDEDModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN10KDEDModule11qt_metacastEPKc@Base 4.97.0
  _ZN10KDEDModule13moduleDeletedEPS_@Base 4.97.0
  _ZN10KDEDModule13setModuleNameERK7QString@Base 4.97.0
+ _ZN10KDEDModule16moduleForMessageERK12QDBusMessage@Base 5.6.0+git20150125.0021+15.04
  _ZN10KDEDModule16moduleRegisteredERK15QDBusObjectPath@Base 4.97.0
  _ZN10KDEDModule16staticMetaObjectE@Base 4.97.0
  _ZN10KDEDModule16windowRegisteredEx@Base 4.97.0
