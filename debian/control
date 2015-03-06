@@ -7,11 +7,11 @@ Build-Depends: cmake (>= 2.8.12),
                dbus-x11,
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0),
+               libqt5x11extras5-dev (>= 5.2.0),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.2.0),
                qttools5-dev,
-               qttools5-dev-tools,
-               libqt5x11extras5-dev (>= 5.2.0)
+               qttools5-dev-tools
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kdbusaddons
@@ -21,7 +21,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdbusaddons.git
 Package: libkf5dbusaddons-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5dbusaddons5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5dbusaddons5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2.0),
+         ${misc:Depends}
 Description: development files for dbusaddons
  KDBusAddons provides convenience classes on top of QtDBus,
  as well as an API to create KDED modules.
