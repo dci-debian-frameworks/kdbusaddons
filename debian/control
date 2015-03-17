@@ -12,7 +12,7 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools,
                libqt5x11extras5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdbusaddons
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kdbusaddons.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdbusaddons.git
