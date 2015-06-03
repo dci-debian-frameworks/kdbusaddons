@@ -1,4 +1,4 @@
-kdbusaddons (5.10.0-0ubuntu1) UNRELEASED; urgency=medium
+kdbusaddons (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
@@ -6,7 +6,7 @@ kdbusaddons (5.10.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 27 May 2015 17:09:18 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:53:15 +0200
 
 kdbusaddons (5.9.0-1) experimental; urgency=medium
 
