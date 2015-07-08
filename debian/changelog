@@ -1,5 +1,9 @@
 kdbusaddons (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
+  * Vivid backport
+
+  [ Harald Sitter ]
   * hashtagyolo
 
  -- Harald Sitter <sitter@kde.org>  Thu, 02 Jul 2015 12:35:05 +0200
