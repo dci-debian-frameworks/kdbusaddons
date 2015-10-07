@@ -1,4 +1,4 @@
-kdbusaddons (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+kdbusaddons (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -6,7 +6,7 @@ kdbusaddons (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 19:37:16 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:45:28 +0100
 
 kdbusaddons (5.14.0-0ubuntu1) wily; urgency=medium
 
