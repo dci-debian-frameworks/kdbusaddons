@@ -60,13 +60,3 @@ Description: class library for qtdbus
  as well as an API to create KDED modules.
  .
  This package contains kquitapp5.
-
-Package: libkf5dbusaddons5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5dbusaddons5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kdbusaddons
- KDBusAddons provides convenience classes on top of QtDBus,
- as well as an API to create KDED modules.
