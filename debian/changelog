@@ -1,13 +1,14 @@
-kdbusaddons (5.20.0-1~1.gbp3c2d00) UNRELEASED; urgency=medium
+kdbusaddons (5.20.0-1~2.gbpdb681a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3c2d006c933dabd909d093aa96a869a246dc2547 **
+  ** SNAPSHOT build @db681a12688cf04361b99e7be35f6863b4c25824 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 24 Mar 2016 00:25:33 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Sat, 26 Mar 2016 16:16:22 +0100
 
 kdbusaddons (5.19.0-1) experimental; urgency=medium
 
