@@ -1,6 +1,6 @@
-kdbusaddons (5.20.0-1~7.gbp53dac4) UNRELEASED; urgency=medium
+kdbusaddons (5.20.0-1~8.gbpe6eac3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @53dac4061cc7735848bf8223f491310a96a5ac75 **
+  ** SNAPSHOT build @e6eac335ce8e8589645ac89d3053b51b2835cee6 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -12,8 +12,9 @@ kdbusaddons (5.20.0-1~7.gbp53dac4) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:20:56 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:16:45 +0200
 
 kdbusaddons (5.19.0-1) experimental; urgency=medium
 
