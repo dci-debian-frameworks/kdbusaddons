@@ -1,3 +1,9 @@
+kdbusaddons (5.20.0-0neon) wily; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:05:21 +0000
+
 kdbusaddons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
