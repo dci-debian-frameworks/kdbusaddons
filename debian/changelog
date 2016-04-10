@@ -1,5 +1,8 @@
-kdbusaddons (5.20.0-1~11.gbp77fded) UNRELEASED; urgency=medium
+kdbusaddons (5.21.0-1~1.gbp1d87ba) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @1d87ba8cf2f0a0b34bd992224bb13d5ffeb09946 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @77fded7a692777615542e8f0a196761c2b2b99ac **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -16,8 +19,14 @@ kdbusaddons (5.20.0-1~11.gbp77fded) UNRELEASED; urgency=medium
   * UNRELEASED
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:16:28 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:16:19 +0200
 
 kdbusaddons (5.19.0-1) experimental; urgency=medium
 
