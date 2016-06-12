@@ -1,3 +1,11 @@
+kdbusaddons (5.23.0-1~1.gbp82ba26) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @82ba2625d5c37eb317deff51bf903912c57b2139 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 21:54:32 +0200
+
 kdbusaddons (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
