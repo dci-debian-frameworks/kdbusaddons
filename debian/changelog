@@ -1,17 +1,12 @@
-kdbusaddons (5.25.0-1~2.gbp23b938) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @23b9387328eaffb2bb924e2f11d34860fc9c5016 **
+kdbusaddons (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @1893213c88fa5a1bc3a889e818e9455404f35bae **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:16:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:21:07 +0200
 
 kdbusaddons (5.23.0-1) unstable; urgency=medium
 
