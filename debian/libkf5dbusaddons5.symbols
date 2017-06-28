@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0+git20150125.0021+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5DBusAddons.so.5 libkf5dbusaddons5 #MINVER#
  _ZN10KDEDModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN10KDEDModule11qt_metacastEPKc@Base 4.97.0
@@ -48,6 +48,7 @@ libKF5DBusAddons.so.5 libkf5dbusaddons5 #MINVER#
  _ZNK10KDEDModule10metaObjectEv@Base 4.97.0
  _ZNK10KDEDModule10moduleNameEv@Base 4.97.0
  _ZNK12KDBusService10metaObjectEv@Base 4.97.0
+ _ZNK12KDBusService11serviceNameEv@Base 5.35.0
  _ZNK12KDBusService12errorMessageEv@Base 4.97.0
  _ZNK12KDBusService12isRegisteredEv@Base 4.97.0
  _ZNK21KDBusInterProcessLock10metaObjectEv@Base 4.97.0
