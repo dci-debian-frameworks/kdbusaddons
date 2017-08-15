@@ -64,6 +64,7 @@ Description: class library for qtdbus (documentation)
  as well as an API to create KDED modules.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5dbusaddons5
 Architecture: any
