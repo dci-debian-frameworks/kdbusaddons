@@ -263,16 +263,6 @@ kdbusaddons (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:55 +0100
 
-kdbusaddons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:58:37 +0100
-
 kdbusaddons (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -344,16 +334,6 @@ kdbusaddons (5.11.0-1) unstable; urgency=medium
   * New upstream release (5.11.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 19:06:26 +0200
-
-kdbusaddons (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * Vivid backport
-
-  [ Harald Sitter ]
-  * hashtagyolo
-
- -- Harald Sitter <sitter@kde.org>  Thu, 02 Jul 2015 12:35:05 +0200
 
 kdbusaddons (5.10.0-0ubuntu1) wily; urgency=medium
 
@@ -455,7 +435,7 @@ kdbusaddons (5.2.0-0ubuntu1) utopic; urgency=medium
 kdbusaddons (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
