@@ -49,7 +49,7 @@ Architecture: any
 Depends: libkf5dbusaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
-Breaks: kded5-dev (<< 5.37), libkf5service-dev (<< 5.37)
+Breaks: kded5-dev (<< 5.41), libkf5service-dev (<< 5.41)
 Recommends: libkf5dbusaddons-doc (= ${source:Version})
 Description: development files for dbusaddons
  KDBusAddons provides convenience classes on top of QtDBus,
@@ -72,14 +72,14 @@ Multi-Arch: same
 Depends: libkf5dbusaddons-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: baloo-kf5 (<< 5.37),
-        kded5 (<< 5.37),
-        kio (<< 5.37),
-        libkf5globalaccel-bin (<< 5.37),
-        libkf5kdelibs4support5-bin (<< 5.37),
-        libkf5kiocore5 (<< 5.37),
-        libkf5service5 (<< 5.37),
-        libkf5wallet-bin (<< 5.37),
+Breaks: baloo-kf5 (<< 5.41),
+        kded5 (<< 5.41),
+        kio (<< 5.41),
+        libkf5globalaccel-bin (<< 5.41),
+        libkf5kdelibs4support5-bin (<< 5.41),
+        libkf5kiocore5 (<< 5.41),
+        libkf5service5 (<< 5.41),
+        libkf5wallet-bin (<< 5.41),
         plasma-framework (<< 5.25),
 Recommends: libkf5dbusaddons-bin (= ${binary:Version})
 Description: class library for qtdbus
